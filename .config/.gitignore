@@ -1,0 +1,13 @@
+/*
+!.gitignore
+
+!starship.toml
+!wallpapers
+!waybar
+!sway
+!rofi
+!kitty
+
+!!nvim
+!!cava
+!!Thunar
