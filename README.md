@@ -11,6 +11,7 @@
 | `Super + Shift + S` | Screenshot Selection |
 | `Super + Alt + S`   | Screenshot Full      |
 | `Super + R`         | Resize Mode          |
+| `Esc`               | Exit                 |
 
 ## Bindings Movement
 
@@ -18,6 +19,8 @@
 | --------------------------- | ------------------------- |
 | `Super + <Number> `         | Mov.Desk <Number>         |
 | `Super + Shift + <Number> ` | Mov. App to Desk <Number> |
+| `Super + Shift + Space`     | Enter in Flooting mode    |
+| `Super + Shift`             | Mov. Flooting App         |
 
 ## Apps
 
