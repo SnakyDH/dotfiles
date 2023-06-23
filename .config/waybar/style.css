@@ -1,7 +1,7 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: CaskaydiaCoveNerdFont,FontAwesome, Roboto, Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-family: Gohufont14NerdFont,FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
 }
 
 window#waybar {
@@ -44,23 +44,24 @@ button {
 
 /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
 button:hover {
-    background: inherit;
-    box-shadow: inset 0 -3px #A24349;
+    background-color: #130808;
+    box-shadow: inset 0 -3px #FEF5EB;
 }
 
 #workspaces button {
     padding: 0 5px;
     background-color: transparent;
-    color: #FFFFFF;
+    color: #FEF5EB;
 }
 
 #workspaces button:hover {
-    background: rgba(0, 0, 0, 0.2);
+  background-color: #130808;
+   /* background: rgba(0, 0, 0, 0.2);*/
 }
 
 #workspaces button.focused {
-    background-color: #64727D;
-    box-shadow: inset 0 -3px #83b796;
+    background-color: #033325;
+    box-shadow: inset 0 -3px #FEF5EB;
 }
 
 #workspaces button.urgent {
@@ -69,12 +70,13 @@ button:hover {
 
 #mode {
     background-color: #64727D;
-    border-bottom: 3px solid #ffffff;
+    border-bottom: 3px solid #130808;
 }
 
 #clock,
 #battery,
 #cpu,
+#cava,
 #memory,
 #disk,
 #temperature,
@@ -94,7 +96,7 @@ button:hover {
 
 #window,
 #workspaces {
-    margin: 0 4px;
+    margin: 0px;
     padding-left: 4px;
 }
 
@@ -107,12 +109,16 @@ button:hover {
 .modules-right>widget:last-child>#workspaces {
     margin-right: 0;
 }
-
+#cava{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10;
+}
 #clock {
     background-color: #64727D;
     box-shadow: inset 0 -3px #C89C7D;
     background-color: #EEAD2D;
-    color: #341824;
+    color: #130808;
 }
 
 #battery {
@@ -174,7 +180,7 @@ label:focus {
 
 #pulseaudio {
     background-color: #EEAD2D;
-    color: #341824;
+    color: #130808;
     box-shadow: inset 0 -3px #C89C7D;
 }
 
@@ -216,7 +222,7 @@ label:focus {
 
 #tray {
     background-color: #EEAD2D;
-    color: #341824;
+    color: #130808;
     box-shadow: inset 0 -3px #C89C7D;
 }
 
@@ -257,7 +263,7 @@ label:focus {
 
 #language {
     background-color: #EEAD2D;
-    color: #341824;
+    color: #130808;
     padding: 0 5px;
     margin: 0 5px;
     min-width: 16px;
