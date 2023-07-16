@@ -1,5 +1,13 @@
 # Dotfiles
 
+## SwayLand + Waybar + Rofi
+
+![General](https://github.com/SnakyDH/dotfiles/blob/main/screenshots/desktop.png?raw=true)
+
+![Rofi](https://github.com/SnakyDH/dotfiles/blob/main/screenshots/rofi-coffee.png?raw=true)
+
+![Terminal](https://github.com/SnakyDH/dotfiles/blob/main/screenshots/terminal.png?raw=true)
+
 ## Bindings
 
 | Key                 | Action               |
@@ -29,23 +37,25 @@
 | [SwayWM]()     | Window Manager          |
 | [Waybar]()     | Status Bar              |
 | [Kitty]()      | Terminal Emulator       |
-| [Neovim]()     | Terminal Text Editor    |
 | [Thunar]()     | File Manager            |
-| [Firefox]()    | Web Browser             |
+| [Edge]()       | Web Browser             |
 | [Grim]()       | Screenshot Tool         |
 | [obs-studio]() | Screen Recorder         |
 | [Discord]()    | Chat and communications |
+| [Spotify]()    | Music Player            |
+| [Pixelorama]() | Sprite Editor           |
 
 ## IDEs
 
 | App                    | Descr.      |
 | ---------------------- | ----------- |
-| [Neovim]()             | Text Editor |
 | [Visual Studio Code]() | Text Editor |
 | [IntelliJ IDEA]()      | Java IDE    |
+| [Neovim]()             | Text Editor |
 
 ## Fonts
 
 | Font                    | Used In.              |
 | ----------------------- | --------------------- |
 | CaskaydiaCove Nerd Font | Terminal, IDEs and WM |
+| Gohu Nerd Font          | Waybar                |
